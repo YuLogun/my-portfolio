@@ -21,7 +21,7 @@ export const Projects = () => (
       </div>
       <div className="projects_container__item">
         <div className="projects_container__pic__container">
-          <a target="_blank" href="#" rel="noopener noreferrer">
+          <a target="_blank" href="https://terry-and-neil-quote-machine.herokuapp.com/" rel="noopener noreferrer">
             <img src={commercePic} className="projects_container__item__avatar" alt="e-commerce project preview" />
           </a>
         </div>

@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/my-portfolio" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
       </Switch>

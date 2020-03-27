@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    height: calc(100vh - 100px);
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6B078E;
+    text-align: center;
+}
+
+.home_hi {
+    font-size: 4rem;
+}
+
+.image-container_img {
+    width: 70px;
+    height: auto;
+}

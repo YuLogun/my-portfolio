@@ -24,13 +24,13 @@ export const About = () => (
       <div className="about_footer__title">Contacts</div>
       <div className="about_footer__icons">
           <a href="https://github.com/YuLogun" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-github" aria-label="github" />
+            <i className="fa fa-github-square" aria-label="github" />
           </a>
           <a href="https://twitter.com/YuLogun" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-twitter" aria-label="twitter" />
+            <i className="fa fa-twitter-square" aria-label="twitter" />
           </a>
           <a href="http://linkedin.com/in/iuliia-logunova-982939190" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-linkedin" aria-label="linkedin" />
+            <i className="fa fa-linkedin-square" aria-label="linkedin" />
           </a> 
       </div>
     </div>

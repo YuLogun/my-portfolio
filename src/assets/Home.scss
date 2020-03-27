@@ -1,19 +1,28 @@
 .home {
-    display: flex;
-    height: calc(100vh - 100px);
-    width: 100vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #6B078E;
-    text-align: center;
+  display: flex;
+  height: calc(100vh - 100px);
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6B078E;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    .home_name {
+      font-size: 3rem;
+    }
+  }
 }
 
 .home_hi {
-    font-size: 4rem;
+  font-size: 4rem;
+  @media screen and (min-width: 768px) {
+    font-size: 5rem;
+  }
 }
 
+
 .image-container_img {
-    width: 70px;
-    height: auto;
+  width: 70px;
+  height: auto;
 }

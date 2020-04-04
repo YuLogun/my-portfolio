@@ -7,20 +7,59 @@
   align-items: center;
   color: #6B078E;
   text-align: center;
-  @media screen and (min-width: 768px) {
-    .home_name {
-      font-size: 3rem;
+  h1 {
+    .second {
+      font-size: 2rem;
+      @media screen and (min-width: 768px) {
+        font-size: 3rem;
+      }
+    }
+    .third {
+      font-size: 2rem;
+      @media screen and (min-width: 768px) {
+        font-size: 3rem;
+      }
     }
   }
 }
 
 .home_hi {
   font-size: 4rem;
+  color: white;
+  animation: home_hi 2s ease-in forwards;
+  &.first {animation-delay: 0s;}
   @media screen and (min-width: 768px) {
     font-size: 5rem;
   }
 }
 
+.home_span {
+  color: white;
+  animation: home_span 2s ease-in forwards;
+  &.second {animation-delay: 0.2s;}
+  &.third {animation-delay: 0.4s;}
+  @keyframes home_span {
+    50% {
+      color: #F5D5FF;
+    }
+    100% {
+      color: #6B078E;
+    }
+  }
+}
+
+.fourth {
+  animation-delay: 0.6s;
+}
+
+@keyframes home_hi {
+  50% {
+    color: #F5D5FF;
+  }
+  100% {
+    color: #6B078E;
+  }
+}
 
 .image-container_img {
   width: 70px;

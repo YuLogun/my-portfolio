@@ -65,3 +65,35 @@
   width: 70px;
   height: auto;
 }
+
+.avatar-animation {
+  height: auto;
+  width: 70px;
+  position: absolute;
+  left: -10000px;
+  animation-name: avatar;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out; 
+}
+
+@keyframes avatar {
+  0% {
+    position: relative;
+    left: 0px;
+    opacity: 0;
+    top: 200px;
+  }
+  50% {
+    position: relative;
+    left: 0px;
+    opacity: 0.03;
+    top: 2px; 
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    opacity: 1;
+  }
+}

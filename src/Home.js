@@ -12,6 +12,8 @@ export const Home = () => (
     </h1>
     <span className="home_span fourth">...and a JavaScript Padawan</span>
     <br />
-    <img src={img} alt="super girl" className="image-container_img" />
+    <div className="avatar-animation">
+      <img src={img} alt="super girl" className="image-container_img" />
+    </div>
   </div>
 )

@@ -62,38 +62,16 @@
 }
 
 .image-container_img {
-  width: 70px;
   height: auto;
+  animation: img 2s ease-in forwards;
+  opacity: 0;
 }
 
-.avatar-animation {
-  height: auto;
-  width: 70px;
-  position: absolute;
-  left: -10000px;
-  animation-name: avatar;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out; 
-}
-
-@keyframes avatar {
-  0% {
-    position: relative;
-    left: 0px;
-    opacity: 0;
-    top: 200px;
-  }
+@keyframes img {
   50% {
-    position: relative;
-    left: 0px;
-    opacity: 0.03;
-    top: 2px; 
+    opacity: 0.2;
   }
   100% {
-    position: relative;
-    left: 0px;
-    top: 10px;
     opacity: 1;
   }
 }

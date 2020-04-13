@@ -1,8 +1,8 @@
 import React from 'react'
 import './assets/Projects.scss'
 import projectAvatar from './assets/projectsAvatar.png'
-import quotePic from './assets/quoteScreen.png'
-import commercePic from './assets/eCommerce.png'
+import quotePic from './assets/quoteAppScreen.png'
+import commercePic from './assets/eCommerceScreen.png'
 
 export const Projects = () => (
   <div className="projects">
@@ -26,7 +26,7 @@ export const Projects = () => (
           </a>
         </div>
         <div className="projects_container__item__text">
-          This is an e-commerce project. I've always been a big fan of fashion, so making something like this with React was a great deal of fun.
+          This is an e-commerce project. I've always been a big fan of geek culture, so making something like this with React was a great deal of fun.
         </div>
       </div>
     </div>

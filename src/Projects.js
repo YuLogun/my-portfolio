@@ -1,7 +1,7 @@
 import React from "react";
 import "./assets/Projects.scss";
 import projectAvatar from "./assets/projectsAvatar.png";
-import commercePic from "./assets/eCommerceScreen.png";
+import commercePic from "./assets/eCommerce.png";
 import quoteMachinePic from "./assets/quoteMachine.png";
 import ProjectContainer from "./ProjectContainer";
 
@@ -23,11 +23,11 @@ export const Projects = () => (
       />
       <ProjectContainer
         imageUrl={commercePic}
-        projectLink="https://github.com/YuLogun/e-commerce"
+        projectLink="https://geek-online-clothing.herokuapp.com/"
         imgAlt="e-commerce project preview"
         description="This is an e-commerce project. I've always been a big fan of geek
-            culture, so making something like this with React is a great deal of
-            fun. The project is still in progress, but you can view it on Github."
+            culture, so making something like this with React was a great deal of
+            fun."
       />
     </div>
   </div>

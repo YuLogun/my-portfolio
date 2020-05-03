@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1209848663748b1965c1add34e7561f",
+    "revision": "435cbd81096a033b16199f5e715778af",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "393d032b084e17e6995e",
+    "revision": "23269a23aacc14415bc8",
     "url": "/my-portfolio/static/css/main.f9670f6d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.2092a8af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "393d032b084e17e6995e",
-    "url": "/my-portfolio/static/js/main.f17ca5f9.chunk.js"
+    "revision": "23269a23aacc14415bc8",
+    "url": "/my-portfolio/static/js/main.9aa5d4bb.chunk.js"
   },
   {
     "revision": "6d7a7337562760299d40",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/avatar.2b13c159.png"
   },
   {
-    "revision": "7c48d367406cc3be8f8586987dfaf2ce",
-    "url": "/my-portfolio/static/media/eCommerceScreen.7c48d367.png"
+    "revision": "33d114fb566835b4c8bbb3daf2e40ca2",
+    "url": "/my-portfolio/static/media/eCommerce.33d114fb.png"
   },
   {
     "revision": "251341c155abc5af5421557e494e9c65",

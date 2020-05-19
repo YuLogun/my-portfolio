@@ -24,7 +24,7 @@ export const Projects = () => (
       />
       <ProjectContainer
         imageUrl={quoteMachinePic}
-        projectLink="https://terry-and-neil-quote-machine.herokuapp.com/"
+        projectLink="https://gaiman-and-pratchett-answer.herokuapp.com/"
         imgAlt="quote machine project preview"
         description="This is a quote machine (or, if you wish, a magic ball project)
           project. Ask my 2 favourite authors what they think."

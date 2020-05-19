@@ -15,19 +15,19 @@ export const Projects = () => (
     />
     <div className="projects_container">
       <ProjectContainer
-        imageUrl={quoteMachinePic}
-        projectLink="https://terry-and-neil-quote-machine.herokuapp.com/"
-        imgAlt="quote machine project preview"
-        description="This is a quote machine (or, if you wish, a magic ball project)
-          project. Ask my 2 favourite authors what they think."
-      />
-      <ProjectContainer
         imageUrl={commercePic}
         projectLink="https://geek-online-clothing.herokuapp.com/"
         imgAlt="e-commerce project preview"
         description="This is an e-commerce project. I've always been a big fan of geek
             culture, so making something like this with React was a great deal of
             fun."
+      />
+      <ProjectContainer
+        imageUrl={quoteMachinePic}
+        projectLink="https://terry-and-neil-quote-machine.herokuapp.com/"
+        imgAlt="quote machine project preview"
+        description="This is a quote machine (or, if you wish, a magic ball project)
+          project. Ask my 2 favourite authors what they think."
       />
     </div>
   </div>

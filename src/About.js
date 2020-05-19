@@ -11,7 +11,7 @@ export const About = () => (
           <p>
             Hey and let's be friends! I'm Iuliia, a self taught developer with a
             great passion for building things with modern Frontend tools.
-            Currently I'm looking for my first role.
+            Currently I'm looking for my next role.
           </p>
           <p>
             I have experience working with JavaScript, React, Redux, but I'm

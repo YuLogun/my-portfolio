@@ -1,0 +1,45 @@
+.container-404 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title-404 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.25em;
+    color: #6b078e;
+    font-weight: 500;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .image-404 {
+    width: 40%;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .link-404 {
+    width: 6em;
+    padding: 1.25em;
+    border: 2px solid #6b078e;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 2em;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #6b078e;
+      color: #fff;
+    }
+  }
+}

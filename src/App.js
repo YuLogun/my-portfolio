@@ -1,9 +1,9 @@
-import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom'
-import { Home } from './Home';
-import { Header } from './Header';
-import { About } from './About';
-import { Projects } from './Projects';
+import React from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
+import { Home } from "./components/Home";
+import { Header } from "./components/Header";
+import { About } from "./components/About";
+import { Projects } from "./components/Projects";
 
 function App() {
   return (

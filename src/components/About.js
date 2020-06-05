@@ -1,6 +1,6 @@
 import React from "react";
-import "./assets/About.scss";
-import avatar from "./assets/avatar.png";
+import "../styles/About.scss";
+import avatar from "../assets/avatar.png";
 
 export const About = () => (
   <div className="about">

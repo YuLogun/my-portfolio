@@ -1,8 +1,8 @@
 import React from "react";
-import "./assets/Projects.scss";
-import projectAvatar from "./assets/projectsAvatar.png";
-import commercePic from "./assets/eCommerce.png";
-import quoteMachinePic from "./assets/quoteMachine.png";
+import "../styles/Projects.scss";
+import projectAvatar from "../assets/projectsAvatar.png";
+import commercePic from "../assets/eCommerce.png";
+import quoteMachinePic from "../assets/quoteMachine.png";
 import ProjectContainer from "./ProjectContainer";
 
 export const Projects = () => (

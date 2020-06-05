@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./assets/ProjectContainer.scss";
+import "../styles/ProjectContainer.scss";
 
 const ProjectContainer = ({ imageUrl, description, projectLink, imgAlt }) => {
   return (

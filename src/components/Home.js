@@ -1,6 +1,6 @@
-import React from 'react'
-import img from './assets/img.png'
-import './assets/Home.scss'
+import React from "react";
+import img from "../assets/img.png";
+import "../styles/Home.scss";
 
 export const Home = () => (
   <div className="home">
@@ -14,4 +14,4 @@ export const Home = () => (
     <br />
     <img src={img} alt="super girl" className="image-container_img" />
   </div>
-)
+);
